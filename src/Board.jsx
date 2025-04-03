@@ -146,16 +146,3 @@ export default function Board() {
     </div>
   );
 }
-
-// 1. Create a SQUARE
-// 2. Create a BOARD
-// 3. Keep a squares state in BOARD component which tracks the squares that have been clicked
-// 4. Send a function as a prop to the SQUARE component which gets triggered when the square is clicked.
-// 5. When a square is clicked, onClick functions performs following actions
-//    a. check for player's turn and mark 'X' OR 'O' accordingly
-//    b. updates the squares state changing the value in the square that has been clicked 
-//    c. updates the movesHistory state storing the location of the recent square that has been clicked
-//    d. change the player's turn state
-//    e. check for a winner in useEffect
-//       1. if there is a winner, declare the winner and stop the game
-//       2. else assign the turn to next player
